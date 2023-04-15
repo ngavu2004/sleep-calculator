@@ -1,19 +1,40 @@
-const SleepPlanningResult = ({name, age, gender }) => {
-    let recommendedHours;
-    if (age < 18) {
-        recommendedHours = gender === 'male' ? 8 : 9;
-    } else if (age >= 18 && age < 65) {
-        recommendedHours = gender === 'male' ? 7 : 8;
+import './stylesheets/SleepPlanning.css';
+const SleepPlanningResult = (props) => {
+
+    const { name, age, gender, onReset } = props;
+
+    // Calculate sleeping hours based on age and gender
+    let sleepingHours;
+    if (gender === 'male') {
+        if (age >= 18 && age <= 64) {
+        sleepingHours = '7-9 hours';
+        } else if (age >= 65) {
+        sleepingHours = '7-8 hours';
+        } else {
+        sleepingHours = '8-10 hours';
+        }
+    } else if (gender === 'female') {
+        if (age >= 18 && age <= 64) {
+        sleepingHours = '7-9 hours';
+        } else if (age >= 65) {
+        sleepingHours = '7-8 hours';
+        } else {
+        sleepingHours = '8-10 hours';
+        }
     } else {
-        recommendedHours = gender === 'male' ? 7 : 9;
+        sleepingHours = '7-9 hours';
     }
 
-    return ( 
+    return (
         <div>
-            <h1>Hi {name}</h1>
-            <p>Based on your age ({age}) and gender ({gender}), it is recommended that you sleep for {recommendedHours} hours per night.</p>
+        <h2>Hi, {name}!</h2>
+        <p>
+            Based on your age ({age}) and gender ({gender}), you should aim to sleep
+            for {sleepingHours} per night.
+        </p>
+        <button onClick={onReset}>Return</button>
         </div>
-     );
+    );
 }
  
 export default SleepPlanningResult;
