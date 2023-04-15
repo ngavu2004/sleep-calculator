@@ -1,0 +1,41 @@
+.my-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .my-form__label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .my-form__input,
+  .my-form__select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  .my-form__select {
+    width: 100%;
+  }
+  
+  .my-form__button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #0077cc;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .my-form__button:hover {
+    background-color: #005299;
+  }

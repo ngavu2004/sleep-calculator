@@ -1,9 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import SleepPlanning from './components/SleepPlanning';
+
 
 function App() {
   return (
-    <div>Helloooo</div>
+    <div className="root">
+      <SleepPlanning />
+    </div>
+      
+    
+    
   );
 }
 
