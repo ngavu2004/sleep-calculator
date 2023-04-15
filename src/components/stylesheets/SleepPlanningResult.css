@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+    .root {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+    }
+  
+    .container{
+      width: 50%;
+    }
+  }
+  
+  /* Styles for small screens */
+  @media screen and (max-width: 767px) {
+    .root {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 60vh;
+    }
+  
+    .container {
+      width: 50%;
+    }
+  }
+
+.calendar {
+    width: 50%;
+    height: 50%;
+}
