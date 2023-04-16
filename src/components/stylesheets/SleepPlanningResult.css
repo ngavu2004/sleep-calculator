@@ -1,32 +1,81 @@
 @media screen and (min-width: 768px) {
-    .root {
+    .sleepPlanRoot {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100vw;
+      position: relative;
     }
   
     .container{
       width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
     }
   }
   
   /* Styles for small screens */
   @media screen and (max-width: 767px) {
-    .root {
+    .sleepPlanRoot {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100vw;
-      height: 60vh;
     }
   
     .container {
-      width: 50%;
+        width: 100%;
     }
   }
 
-.calendar {
-    width: 50%;
-    height: 50%;
+.sleepPlan  {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    margin: 2vh;
+    padding: 2.5rem;
+    padding: 3vh 2vh;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background: linear-gradient(to top right, rgba(23, 22, 36,1), rgba(47, 73, 125, 0.8));
+    font-family: 'EB Garamond', serif;
+    font-size: large;
 }
+
+.sleepPlan:hover {
+    box-shadow: 2px 2px 20px rgba(0, 245, 251, 0.5);
+  }
+
+.sleepPlan p {
+    text-align: left;
+}
+
+.sleepPlan button {
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 245, 251, 0.5);
+    padding: 1vh;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    font-size: large;
+    cursor: pointer;
+}
+
+.sleepPlan button:hover {
+    box-shadow: 2px 2px 20px rgba(0, 245, 251, 0.5);
+  }
+
+.calendar {
+    margin: auto;
+    padding: 5vh;
+}
+
+.calendar img {
+
+    width: 100%;
+}
+

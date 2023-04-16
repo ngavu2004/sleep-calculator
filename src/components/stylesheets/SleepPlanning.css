@@ -1,4 +1,14 @@
 .planning-root {
     text-align: center;
     /* width: 100vw; */
+    margin: 2vh;
+}
+
+.planning-root h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 8vh;
+}
+
+.planning-root h2 {
+    font-family: 'EB Garamond', serif;
 }

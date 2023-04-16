@@ -1,4 +1,5 @@
 import './stylesheets/SleepPlanningResult.css';
+import calendar from '../images/calendar.png';
 const SleepPlanningResult = (props) => {
 
     const { name, age, gender, onReset } = props;
@@ -26,20 +27,31 @@ const SleepPlanningResult = (props) => {
     }
 
     return (
-        <div className='root'>
+        <div className='sleepPlanRoot'>
             
             <div className="container">
+                <h2>Hi, {name}!</h2>
                 <div className="sleepPlan">
-                    <h2>Hi, {name}!</h2>
                     <p>
                         Based on your age ({age}) and gender ({gender}), you should aim to sleep
                         for {sleepingHours} per night.
+                        This is the sleep plan:
+                        <ul>
+                            <li>Monday: 10 PM - 6 AM</li>
+                            <li>Tuesday: 10 PM - 6 AM</li>
+                            <li>Wednesday: 10 PM - 6 AM</li>
+                            <li>Thursday: 10 PM - 6 AM</li>
+                            <li>Friday: 10 PM - 6 AM</li>
+                            <li>Saturday: 10 PM - 6 AM</li>
+                            <li>Sunday: 10 PM - 6 AM</li>
+
+                        </ul>
                     </p>
                     <button onClick={onReset}>Return</button>
                 </div>
-                <div className="calendar">
-                    <img src='./images/calendar.png' />
-                </div>
+                {/* <div className="calendar">
+                    <img src={calendar} />
+                </div> */}
             
             </div>
         </div>

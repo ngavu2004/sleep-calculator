@@ -7,7 +7,8 @@
   }
 
   .my-form {
-    width: 50%;
+    padding: 5vh;
+    width: 30%;
   }
 }
 
@@ -25,7 +26,10 @@
     width: 50%;
   }
 }
-
+.formContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .my-form {
     display: flex;
     flex-direction: column;
@@ -33,8 +37,16 @@
     padding: 2vh;
     border: 1px solid #ccc;
     border-radius: 0.5rem;
+    background: linear-gradient(to top right, rgba(23, 22, 36,1), rgba(47, 73, 125, 0.8));
+    font-family: 'EB Garamond', serif;
+    font-size: large;
   }
-  
+  .my-form input {
+    color: black;
+  }
+  .my-form:hover {
+    box-shadow: 2px 2px 20px rgba(0, 245, 251, 0.5);
+  }
   .my-form__label {
     display: flex;
     flex-direction: column;
@@ -55,14 +67,16 @@
   
   .my-form__button {
     padding: 0.5rem;
-    font-size: 1rem;
     border: none;
     border-radius: 0.5rem;
-    background-color: #0077cc;
+    background-color: rgba(0, 245, 251, 0.5);
+    padding: 1vh;
     color: #fff;
     cursor: pointer;
+    font-family: 'EB Garamond', serif;
+    font-size: large;
   }
   
   .my-form__button:hover {
-    background-color: #005299;
+    box-shadow: 2px 2px 20px rgba(0, 245, 251, 0.5);
   }
