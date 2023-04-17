@@ -1,0 +1,39 @@
+.information-container {
+    text-align: center;
+    /* width: 100vw; */
+    margin: 2vh;
+}
+
+.information-container h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 8vh;
+}
+
+.information-container h2 {
+    font-family: 'EB Garamond', serif;
+}
+/* for large screens */
+@media screen and (min-width: 768px) {
+    .info-preview {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .info-preview {
+        width: 100%;
+    }
+}
+.info-preview {
+    padding: 10px 16px;
+    margin: 5vh auto;
+    border: 1px solid #fafafa;
+}
+.info-preview:hover {
+    box-shadow: 2px 2px 20px rgba(0, 245, 251, 0.5);
+}
+.info-preview h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 8px;
+}
