@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sleep-calculator/static/css/main.4a2687d8.css",
-    "main.js": "/sleep-calculator/static/js/main.1635341a.js",
+    "main.css": "/sleep-calculator/static/css/main.dbb98b10.css",
+    "main.js": "/sleep-calculator/static/js/main.65e64a1a.js",
     "static/js/787.6b21ccdc.chunk.js": "/sleep-calculator/static/js/787.6b21ccdc.chunk.js",
     "static/media/background_image.jpg": "/sleep-calculator/static/media/background_image.4f417e7af5dd6926b65f.jpg",
     "static/media/calendar.png": "/sleep-calculator/static/media/calendar.8181887ef0d718632b18.png",
     "index.html": "/sleep-calculator/index.html",
-    "main.4a2687d8.css.map": "/sleep-calculator/static/css/main.4a2687d8.css.map",
-    "main.1635341a.js.map": "/sleep-calculator/static/js/main.1635341a.js.map",
+    "main.dbb98b10.css.map": "/sleep-calculator/static/css/main.dbb98b10.css.map",
+    "main.65e64a1a.js.map": "/sleep-calculator/static/js/main.65e64a1a.js.map",
     "787.6b21ccdc.chunk.js.map": "/sleep-calculator/static/js/787.6b21ccdc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a2687d8.css",
-    "static/js/main.1635341a.js"
+    "static/css/main.dbb98b10.css",
+    "static/js/main.65e64a1a.js"
   ]
 }
