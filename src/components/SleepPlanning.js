@@ -2,7 +2,7 @@ import SleepHabitForm from "./SleepHabitForm";
 import SleepPlanningResult from "./SleepPlanningResult";
 import './stylesheets/SleepPlanning.css';
 import {GiNightSleep} from "react-icons/gi";
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 import { useState } from "react";
 const SleepPlanning = () => {
     return ( 
